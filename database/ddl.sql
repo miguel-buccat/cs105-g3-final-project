@@ -83,13 +83,3 @@ CREATE TABLE `order_items` (
   CONSTRAINT `fk_order_item_order` FOREIGN KEY (`order_id`) REFERENCES `orders` (`order_id`),
   CONSTRAINT `fk_order_item_product` FOREIGN KEY (`product_id`) REFERENCES `products` (`product_id`)
 );
-
---
-
--- TODO: Populate tables with data [Buccat, Bundalian]
-
---
-
--- TODO : Create queries to retrieve data [Aya-ay, Danao]
-
---
