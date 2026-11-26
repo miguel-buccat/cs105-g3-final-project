@@ -1,7 +1,3 @@
--- TODO: Create roles and set permissions [Estavillo]
-
---
-
 -- [DONE] TODO: Create tables [Buccat]
 CREATE TABLE `categories` (
   `category_id`     int(11)         PRIMARY KEY NOT NULL,
